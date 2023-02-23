@@ -8,4 +8,6 @@ Rails.application.routes.draw do
 
   resources :recipes
 
+  get 'sign-up', to: 'users#new'
+
 end
