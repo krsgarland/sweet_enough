@@ -5,9 +5,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   root "pages#landing"
-
-  resources :recipes
-
   get 'sign-up', to: 'users#new'
 
 end
